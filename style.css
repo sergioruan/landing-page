@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    background-image: linear-gradient(to right, #2F2325 ,#8E5D52);
+}
+
+#cabecalho {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Sarala', sans-serif;
+    font-size: 14px;
+    border-bottom: 0.4px solid #fff2e774;
+    font-weight: 400;
+}
+
+#menu {
+    display: flex;
+    gap: 60px;
+}
+.links {
+    color: #fff2e7;
+}
+.links:hover {
+    color: #2F2325;
+    transition-duration: 0.2s;
+}
+#section01 {
+    height: 350px;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;     
+}
+#textos_section01 {
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+}
+#titulo_principal {
+    font-family: 'Righteous', sans-serif;
+    font-weight: 400;
+    color: #fff2e7;
+    font-size: 64px;
+}
+#paragrafo_section01 {
+    font-family: 'Sarala', sans-serif;
+    color: #ECD6C4;
+    font-size: 24px;
+}
+#botao {
+    justify-content: center;
+    font-family: 'Sarala', sans-serif;
+    font-size: 24px;
+    border-radius: 20px;
+    border: none;
+    background-color: #ECD6C4;
+    color: #2F2325;
+    width: 273px;
+    height: 41px;
+}
+#botao:hover {
+    background-color: #2F2325;
+    color: #ECD6C4;
+    transition-duration: 0.7s;
+    border: 0.4px solid #ECD6C4;
+}
+#ballebot {
+    height: 400px;
+}
+#section02 {
+    gap: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+#titulo02 {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 50px;
+    color: #FFF2E7;
+    font-family: 'Righteous', cursive;
+    font-size: 24px;
+    font-weight: 400px;
+}
+.paragrafos02 {
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
+    color: #ECD6C4;
+}
+#rodape {
+    padding: 40px;
+    border-top: 0.4px solid #FFF2E7;
+}
+#ballerini {
+    display: block;
+    margin: auto;
+}
